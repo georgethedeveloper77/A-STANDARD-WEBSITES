@@ -16,7 +16,7 @@ class OurServices extends Component {
                             <div className="data-services-item">
                                 <div className="single-data-service-box"> 
                                     <div className="icon">
-                                        <i className="flaticon-big-data"></i>
+                                        <i className="flaticon-big-data"/>
                                     </div>
                                     <h3>
                                         <Link href="/service-details">
