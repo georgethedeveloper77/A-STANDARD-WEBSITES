@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title> Being - Personal Blog HTML Template </title>
+    <meta name="description" content="">
+    
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?Nunito:400,700&display=swap' rel='stylesheet'>
+
+    <!--favicon icon-->
+    <link rel="icon" sizes="16x16" href="img/favicon.png">
+
+    <!-- Syntax Highlighter -->
+    <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+    <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+
+    <!-- Normalize/Reset CSS-->
+    <link rel="stylesheet" href="css/normalize.min.css">
+
+    <!-- Main CSS-->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <aside class="left-sidebar">
+        <div class="logo">
+            <a href="#welcome">
+                <h3> Being.</h3>
+            </a>
+        </div>
+        <nav class="left-nav">
+            <ul id="nav">
+                <li class="current">
+                    <a href="#welcome">Welcome</a>
+                </li>
+                <li>
+                    <a href="#installation">Installation</a>
+                </li>
+                <li>
+                    <a href="#tmpl-structure">Structure</a>
+                </li>
+                <li>
+                    <a href="#css-structure">CSS Files</a>
+                </li>
+                <li>
+                    <a href="#javascript">JavaScript Libraries</a>
+                </li>
+                <li>
+                    <a href="#main-js">Main Js Structure</a>
+                </li>
+                <li>
+                    <a href="#customization">Customization</a>
+                </li>
+                <li>
+                    <a href="#credit">Source and Credit</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <div id="main-wrapper">
+        <div class="main-content">
+            <section id="welcome">
+                <div class="content-header">
+                    <h1>  Being - Personal Blog HTML Template </h1>
+                </div>
+                <div class="welcome">
+                    <ul class="ml-20">
+                        <li>
+                            <b>Template Name:</b>  Being - Personal Blog HTML Template </li>
+                        <li>
+                            <b>Version:</b> 1.0.0</li>
+                        <li>
+                            <b>Last Updated On:</b> 14 June 2021</li>
+                        <li>
+                            <b>Author:</b>
+                            <a href="https://themeforest.net/user/assiagroupe">AssiaGroupe</a>
+                        </li>
+                    </ul>
+                    <p>Thank you so much for choosing this template. Your comments and ratings would be highly appreciated.
+                        You have purchased this template so, you will get full support from us. We will update this template
+                        time to time and we want to hear from you for the future updates or for complete new templates. If
+                        you have any questions that are beyond the scope of this document, feel free to email via my user
+                        page contact form
+                        <code><a
+                            href="https://themeforest.net/user/assiagroupe">here</a></code>
+                    </p>
+                </div>
+
+                <div class="features">
+                    <h2 class="twenty">Template Features</h2>
+
+                    <ul>
+                        <li>HTML5 &amp; CSS3</li>
+                        <li>Bootstrap v4</li>
+                        <li>Font-awesome</li>
+                        <li>jQuery</li>
+                        <li>Responsive Design</li>
+                        <li>Pixel Perfect Design</li>
+                        <li>Clean Code &amp; Unique Design</li>
+                        <li>Easy to Customize</li>
+                        <li>Blog Details Page</li>
+                        <li>Made with SCSS</li>
+                        <li>W3C Validate Code</li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <section id="installation">
+                <h2 class="title">Installing Template.</h2>
+
+                <div class="section-content">
+                    <ol class="ml-20">
+                        <li>After unzip the download pack, you'll found a Template Folder with all the files.</li>
+                        <li>You can view this Template in any browser, you can display or edit the Template without an internet
+                            connection.(May not work fonts).
+                        </li>
+                        <li>Now go to your cpanel or open your FTP Client (like
+                            <a target="_blank" href="https://filezilla-project.org/download.php"
+                                rel="nofollow">Filezilla</a>) and upload the content of the Template on your server's root directory.
+                        </li>
+                        <li>Once the files are done uploading go to www.yourdomainname.com/index.html</li>
+                    </ol>
+                </div>
+
+            </section>
+
+
+            <section id="tmpl-structure">
+                <h2 class="title">Template Structure</h2>
+                <p class="fifteen">All information within the main content area is nested within a body tag. The general template structure
+                    is pretty the same throughout the template. Here is the general structure of main page (index.html).</p>
+                <pre class="brush: html">
+                  
+                <!--loading -->
+                <div class="loading">
+                </div>
+                
+                <!-- Navigation-->
+                <nav class="navbar navbar-expand-lg fixed-top">
+                </nav>
+                
+                <!--Hero-->
+                <section class="hero hero-1 hero-carousel d-flex align-items-center">
+                </section>
+                
+                <!--categories-->
+                <section class="categorie-section bg-light">
+                </section>
+                
+                <!--Posts-->
+                <section class="mt-100 mb-70">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <!--Post-1-->
+                                <div class="post-round">
+                                </div>
+                            </div>
+                
+                            <div class="col-lg-4 col-md-6">
+                                <!--Post-2-->
+                                <div class="post-round">
+                                </div>
+                            </div>
+                
+                            <div class="col-lg-4 col-md-6">
+                                <!--Post-3-->
+                                <div class="post-round">
+                                </div>
+                            </div>
+                
+                            <div class="col-lg-4 col-md-6">
+                                <!--Post-4-->
+                                <div class="post-round">
+                                </div>
+                            </div>
+                
+                            <div class="col-lg-4 col-md-6">
+                                <!--Post-5-->
+                                <div class="post-round">
+                                </div>
+                            </div>
+                
+                            <div class="col-lg-4 col-md-6">
+                                <!--Post-6-->
+                                <div class="post-round">
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                
+                <!--post-full-->
+                <section class="post-full bg-light">
+                </section>
+                
+                <!--Posts-->
+                <section class="mb-70 mt-100">
+                    <div class="container">
+                        <div class="row">
+                
+                            <div class="col-lg-6">
+                                <div class="post-list">
+                                </div>
+                            </div>
+                
+                            <div class="col-lg-6">
+                                <div class="post-list">
+                                </div>
+                            </div>
+                
+                            <div class="col-lg-6">
+                                <div class="post-list">
+                                </div>
+                            </div>
+                
+                            <div class="col-lg-6">
+                                <div class="post-list">
+                                </div>
+                            </div>
+                
+                            <div class="col-lg-6">
+                                <div class="post-list">
+                                </div>
+                            </div>
+                
+                            <div class="col-lg-6">
+                                <div class="post-list">
+                                </div>
+                            </div>
+                
+                            <div class="col-lg-6">
+                                <div class="post-list">
+                                </div>
+                            </div>
+                
+                            <div class="col-lg-6">
+                                <div class="post-list">
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                
+                <!--instagram-->
+                <section class="instagram">
+                </section>
+                
+                <!--newslettre-->
+                <section class="newslettre">
+                </section>
+                
+                <!--footer-->
+                <footer class="footer">
+                </footer>
+                
+                <!--Search-form-->
+                <div class="search">
+                </div>
+		        </pre>
+            </section>
+
+
+            <section id="css-structure">
+                <h2 class="title">CSS Files and Structure</h2>
+                <p class="fifteen">These are the css files that are loaded into templates in
+                    <strong>Head Section</strong>.
+                </p>
+                <pre class="brush: html">
+                    
+                    <!-- Font Google -->
+                    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+                    
+                    <!-- CSS Plugins -->
+                    <link rel="stylesheet" href="assets/css/all.css">
+                    <link rel="stylesheet" href="assets/css/elegant-font-icons.css">
+                    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+                    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+                    
+                    <!-- main style -->
+                    <link rel="stylesheet" href="assets/css/style.css">
+                    <link rel="stylesheet" href="assets/css/custom.css">
+                
+			</pre>
+
+                <h2 class="title">Google Web Fonts</h2>
+
+                <p>By default, the template loads this font from Google Web Font Services,
+                     you can change the font with the
+                    one that suits you best.</p>
+
+                <pre class="brush:html">
+               
+                <!-- Font Google -->
+                <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+            </pre>
+
+                <p class="twenty">Remember to change the fonts into
+                    <strong>style.css</strong>
+                </p>
+            </section>
+
+            <section id="javascript">
+                <h2 class="title">Javascript Files and Structure</h2>
+
+                <p class="fifteen">These are the list of Javascript files that are loaded into templates in end of the
+                    <strong>Body Section</strong>.
+
+                    <pre class="brush: html">
+                        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                        <script src="assets/js/jquery-3.5.0.min.js"></script>
+                        <script src="assets/js/popper.min.js"></script>
+                        <script src="assets/js/bootstrap.min.js"></script>
+                        
+                        <!-- JS Plugins  -->
+                        <script src="assets/js/ajax-contact.js"></script>
+                        <script src="assets/js/owl.carousel.min.js"></script>
+                        <script src="assets/js/main.js"></script>
+		            </pre>
+            </section>
+
+            <section id="main-js">
+                <h2 class="title"> Main.js File Structure </h2>
+                <p>This is a js file to activate different functionality of this template</p>
+                <pre class="brush:php">
+
+
+/* -----------------------------------
+		 Preloader
+----------------------------------- */
+
+
+/* -----------------------------------
+         Navigation
+----------------------------------- */
+
+
+/* -----------------------------------
+         Search
+-----------------------------------*/
+
+
+/* ----------------------------------- 
+         Back-top
+ -----------------------------------*/
+
+
+/* -----------------------------------
+         Hero-carousel
+-----------------------------------*/
+
+
+		            </pre>
+            </section>
+            <section id="customization">
+                <h2 class="title"> Template Customization </h2>
+                <p>You can customize this template with your own content. Here are some basic changes you need.</p>
+
+                <h3 class="title"> Menu Items Customize </h3>
+                <p>You need to change the menu items text in the code to change the menu. Change the text home, blog, posts features,
+                    about, contact (if you want)</p>
+                <pre class="brush: html">
+                <!-- Navigation-->
+                <nav class="navbar navbar-expand-lg fixed-top">
+                    <div class="container">
+                        <!--logo-->
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/img/logo-dark.png" alt="" class="logo-dark">
+                                <img src="assets/img/logo-white.png" alt="" class="logo-white">
+                            </a>
+                        </div>
+                
+                        <!--navbar-collapse-->
+                        <div class="collapse navbar-collapse" id="main_nav">
+                            <ul class="navbar-nav ml-auto mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="index.html" data-toggle="dropdown"> Home </a>
+                                    <ul class="dropdown-menu fade-up">
+                                        <li>
+                                            <a class="dropdown-item active" href="index.html">Home 1</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="index-2.html">Home 2 </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="index-3.html">Home 3 </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> Blog </a>
+                                    <ul class="dropdown-menu fade-up">
+                                        <li>
+                                            <a class="dropdown-item" href="blog-list.html">Blog list</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="blog-list-2.html">Blog list 2</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="blog-grid.html">Blog Grid</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="blog-grid-2.html">Blog Grid 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link  dropdown-toggle " href="#" data-toggle="dropdown"> Posts Features</a>
+                                    <ul class="dropdown-menu fade-up">
+                                        <li>
+                                            <a class="dropdown-item" href="post-default.html">Post Default</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="post-right-sidebar.html"> Right Sidebar</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="post-left-sidebar.html">Left Sidebar</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog-grid-2.html"> Art & Design </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> Pages </a>
+                                    <ul class="dropdown-menu fade-up">
+                                        <li>
+                                            <a class="dropdown-item" href="author.html"> Author</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="about.html"> About </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item " href="contact.html"> Contact </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html"> Contact </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--/-->
+                
+                        <!--navbar-right-->
+                        <div class="navbar-right ml-auto">
+                            <div class="social-icones">
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                
+                                </ul>
+                            </div>
+                            <div class="theme-switch-wrapper">
+                                <label class="theme-switch" for="checkbox">
+                                    <input type="checkbox" id="checkbox" />
+                                    <div class="slider">
+                                        <i class="far  fa-sun icon-light"></i>
+                                        <i class="far fa-moon icon-dark"></i>
+                                    </div>
+                                </label>
+                            </div>
+                
+                            <div class="search-icon">
+                                <i class="far fa-search"></i>
+                            </div>
+                
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+
+             </pre>
+
+                <h3 class="title"> Contact Form </h3>
+                <p>the only thing you need to do is to setup your email address. To configure your email just go to php folder
+                    and open mail.php , then replace demo@domain.com with your email address</p>
+                <pre class="brush: html">
+                             if ($_SERVER["REQUEST_METHOD"] == "POST") 
+
+                             { # FIX: Replace this email with recipient email
+                                 $mail_to = "demo@domain.com";
+                                </pre>
+                <p>Please find demo@domain.com and replace demo email with your email.</p>
+
+            </section>
+            <section id="credit">
+                <h2 class="title">Source and Credit</h2>
+                <div class="script-source">
+                    <ul class="ml-20">
+                        <li>
+                            <a target="_blank" href="http://jquery.com/">jQuery</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://getbootstrap.com">Bootstrap 4</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://fontawesome.io/">FontAwesome</a>
+                        </li>
+                       
+                        <li>
+                            <a target="_blank" href="https://unsplash.com/">Unsplash</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.pexels.com/">Pexels</a>
+                        </li>
+                       
+                    </ul>
+                </div>
+                <div class="note">
+                    <h3>
+                        <b>Note:</b>
+                    </h3>
+                    <ul class="ml-20">
+                        <li>While images are not included in the download package .
+                        </li>
+                        <li>This Template is not WordPress Theme, and can’t be installed in WordPress.</li>
+                    </ul>
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <!-- Essential JavaScript Libraries
+    ==============================================-->
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
+    <script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script>
+    <script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script>
+    <script type="text/javascript" src="syntax-highlighter/scripts/shBrushCss.js"></script>
+    <script type="text/javascript" src="syntax-highlighter/scripts/shBrushJScript.js"></script>
+    <script type="text/javascript" src="syntax-highlighter/scripts/shBrushPhp.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all()
+    </script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+
+</html>
